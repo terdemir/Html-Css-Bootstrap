@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>Css Dersleri</title>
+        <link rel="stylesheet" href="css/stil.css" type="text/css">
+        <style>
+            h2 {
+                color:cadetblue;
+                font-size: 25px;
+            }
+            p{
+                color: blueviolet;
+                font-size: 14px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1>Css bir web sayfasında nasıl kullanılır?</h1>
+        <ol>
+            <li>Yerel Css</li>
+            <li>Dahili/Genel Css</li>
+            <li>Harici/Bağlantılı Css</li>
+        </ol>
+        <hr>
+        <h2 style="color:red; font-size:36px;">Yerel Css</h2>
+        <p style="color: blue; font-size:20px;">
+            Yerel stil şablonları bir web sayfasında bir html etiketi için özel olarak kullanılırlar.
+            <br>
+        Yerel Css kullanım örneği bu paragrafın parametresi olarak yer alan style etiketi içinde vardır. 
+        </p>
+        <h2>Genel/Dahili Css</h2>
+        <p>
+            Genel css yazıldığı sayfanın tamamında etkilidir. 
+            <br>
+            Yani bu stiller ilgili sayfadaki ilgili etiketlerin hepsinin özelliklerini belirlemek istediğimizde kullanılır. 
+            <br>
+            Yenel Css stil etiketleri head bloğunda style etiketi içine yazılır. 
+            Yazılan özellikler sadece ilgili sayfada etkili olacaktır.
+        </p>
+        <h2>Harici/Bağlantılı Css</h2>
+        <p>Harici Css birden çok sayfada kullanılabilir. 
+            Birden çok sayfanın aynı stillerde olması istendiğinde kullanılır. 
+            <br>
+            Harici css için .css uzantılı ayrı bir belge oluşturulur. 
+            Bu belge head blogunda link etiketi ile sayfaya dahil edilir. 
+            örnek bu sayfanın head bloğunda vardır.
+            <br>
+            Örneğin bu sayfadaki h1 etiketleri harici css sayfasında tanımlanmıştır.
+        </p>
+        <hr>
+        <h1>Seçiciler</h1>
+        <p>Seçiciler bir html sayfasında bulunan herhangi bir html elemanını 
+            veya birden fazla elamanı seçerek özellik biçimlendirmeyi sağlar. </p>
+        <h2>Sınıf Seçicileri</h2>
+        <p class="parag">
+            Sınıf seçicisi birden çok html elemanını biçimlendirmek istediğimizde kullanılır. <br>
+            .sınıfadi şeklinde css içinde tanımlanır. <br>
+        </p>
+        <p class="parag">
+            Etkilenecek olan html elamının parametresi olarak class="sınıfadi" şeklinde çağırılır.
+            Örnek bu paragraf etiketinde yer almaktadır. 
+        </p>
+        <h2>İd Seçicisi</h2>
+        <p id="parag1">
+            Id seçici bir html elemanının özel biçimlendirmek istediğimizde kullanılır. 
+            Css belgesi içinde #idadi şeklinde tanımlanır. <br>
+            Etkilenecek olan html elemanının parametresiolarak id="idadi" şeklinde çağırılır.
+            Örnek bu paragraf etiketinde yer almaktadır. 
+        </p>
+
+    </body>
+</html>
