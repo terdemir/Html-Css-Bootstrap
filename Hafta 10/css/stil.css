@@ -1,0 +1,188 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    width: 100%;
+    height: 120px;
+    background-color: #069;
+    padding-top: 20px;
+}
+.ortala{
+    width: 75%;
+    height: auto;
+    margin: auto;
+}
+#baslik{
+    width: 30%;
+    height: 100px;
+    float: left;
+}
+#baslik h1{
+    margin: 0px;
+    padding: 0px;
+}
+#baslik p{
+    color: #fff;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+#baslik a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+#menu{
+    width: 70%;
+    height: 100px;
+    float: left;
+}
+#menu ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 40px;
+    float: right;
+}
+#menu ul li{
+    padding: 10px 20px;
+    float: left;
+}
+#menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+#menu ul li a:hover{
+    color: #000;
+}
+
+#slider{
+    background-color: #069;
+    width:100%;
+    height: 360px;
+    margin-top: 10px;
+}
+#slider h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding-top: 150px;
+}
+#slider h3{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+#icerik{
+    height: 350px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 10px;
+}
+#kutu{
+    float: left;
+    height: auto;
+    width: 32%;
+}
+#resimkutu{
+    background-color: #069;
+    width: 100%;
+    height: 176px;
+    margin: 0px;
+}
+#resimkutu h1{
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 70px;
+}
+#kutu h4{
+    font-size: 20px;
+    color: #069;
+    padding:0px;
+    margin-top: 15px;
+    text-align: center;
+}
+#kutu p{
+    font-weight: bold;
+    color: #069;
+    font-size: 12px;
+    text-align: justify;
+}
+#kutu a{
+    font-size: 12px;
+    color: #069;
+    float: right;
+}
+#alticerik{
+    width: 100%;
+    height: 320px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 10px;
+}
+#altsol{
+    width: 50%;
+    height: 320px;
+    float: left;
+}
+#altsol h3{
+    font-size: 30px;
+    color: #069;
+    text-align: center;
+}
+#altsol p{
+    font-size: 20px;
+    color: #069;
+    text-align: center;
+}
+#altsag{
+    width: 50%;
+    height: 320px;
+    float: right;
+}
+#video{
+    background-color: #069;
+    width: 100%;
+    height: 300px;
+}
+#video h3{
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #069;
+    margin-top: 10px;
+}
+#footerkutu{
+    width: 32%;
+    height: 180px;
+    margin: 3px;
+    padding: 3px;
+    float: left;
+}
+#footerkutu h3{
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+#footerkutu p{
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+
+
