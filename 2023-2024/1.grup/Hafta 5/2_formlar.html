@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Form Örnekleri</title>
+    </head>
+    <body>
+        <h2>Örnek 1</h2>
+        <form action="#" method="post">
+            <input type="text" placeholder="Kullanıcı Adını Giriniz" required> <br><br>
+            <input type="password" placeholder="Parolanızı Giriniz" required> <br><br>
+            <!-- placeholder kutu içerisinde mesaj veermek için kullanılır,
+            required ise boş bırakılamaması için kullanılır-->
+            <input type="submit" value="Giriş Yap">
+        </form>
+        <br>
+        <h2>Örnek 2</h2>
+        <form action="#" method="post">
+            Adınız: <input type="text" autofocus><br> <!-- autofocus sayfa yüklendiğinde bu öğenin aktif olmasını sağlar-->
+            Soyadınız: <input type="text"> <br>
+            Şifreniz: <input type="pasword" minlength="4" maxlength="8"> <br> <!-- minlength, maxlength en az ve en çok kaç karakter girilebileceğini belirler-->
+            Cinsiyetiniz: 
+                        <input type="radio" name="cinsiyet" value="1"> Kadın
+                        <input type="radio" name="cinsiyet" value="2"> Erkek <br><br>
+            Bildiğiniz Yabancı Diller:
+                        <input type="checkbox" name="dil1"> İngilizce
+                        <input type="checkbox" name="dil2"> Almanca
+                        <input type="checkbox" name="dil3"> Fransızca <br><br>
+            Yaşadığınız Şehir:
+                        <select name="sehir">
+                            <option value="sehir1">Amasya</option>
+                            <option value="sehir2">Samsun</option>
+                            <option value="sehir3">Tokat</option>
+                        </select> <br><br>
+            Adresiniz: <textarea name="adres" cols="30" rows="10"></textarea> <br><br>
+                        <input type="reset" value="Sıfırla">
+                        <input type="submit" value="Kayıt ol">
+        </form>
+
+        <h2>Örnek 3</h2>
+        <form action="#" method="post">
+            <table border="2" width="400">
+                <tr>
+                    <th>İsim-Soyisim</th>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <th>Doğum Tarihi</th>
+                    <td><input type="date" name="" id=""></td>
+                </tr>
+                <tr>
+                    <th>TC No</th>
+                    <td><input type="number" maxlength="11" minlength="11"></td>
+                </tr>
+                <tr>
+                    <th>Hobileriniz</th>
+                    <td><input type="checkbox" name="hobi">Spor <br>
+                        <input type="checkbox" name="hobi">Doğa <br>
+                        <input type="checkbox" name="hobi">Müzik <br>
+                        <input type="checkbox" name="hobi">Tiyatro <br>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Mesajınız</th>
+                    <td><textarea name="mesaj" id="" cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="right">
+                        <input type="submit" value="Gönder">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
