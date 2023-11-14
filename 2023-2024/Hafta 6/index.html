@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Css Dersleri</title>
+	<link rel="stylesheet" type="text/css" href="css/stil.css">
+
+	<style>
+		h3{
+			color: cadetblue;
+			font-size: 25px;
+		}
+		p{
+			color: blueviolet;
+			font-size: 14px;
+		}
+	</style>
+
+
+
+</head>
+<body>
+	<h1>Css bir web sayfasında hangi yöntemler ile kullanılabilir?</h1>
+
+	<ol>
+		<li>Yerel Css</li>
+		<li>Dahili/Genel Css</li>
+		<li>Harici/Bağlantılı Css</li>
+	</ol>
+
+	<hr>
+
+
+	<h3 style="color: red; font-size: 36px;">Yerel Css</h3>
+	<p style="color:blue; font-size:20px;">
+		Yerel Css bir web sayfasında bir html etiketi için özel olarak kullanılır. 
+		<br>
+		Yerel Css kullanım örneği bu paragrafın parametresi olarak yer alan style içinde vardır. 
+	</p>
+	<p>Bu paragrafta style parametresi yoktur. Doğal olarak herhangi bir biçimlendirme görülmemektedir.
+	</p>
+
+	<h3>Dahili/Genel Css</h3>
+	<p>
+		Genel Css yazıldığı sayfanın tamamında etkilidir. 
+		<br>
+		Yani bu stiller ile ilgili sayfadaki ilgili etiketlerin hepsinin özelliklerini belirlenebilir.
+		<br>
+		Genel Css etiketleri head bloğunda style etiketi içine yazılır.
+		Yazılan özellikler sadece yazılan sayfada etkili olacaktır.
+	</p>
+	
+	<h3> Harici/Bağlantılı Css</h3>
+	<p>
+		Harici Css birden fazla sayfada kullanılabilir.
+		Birden çok sayfanın aynı stillere sahip olması istendiğinde kullanılır.
+		<br>
+		Harici css oluşturmak için .css uzantılı ayrı bir belge oluşturulur.
+		Bu belge Head bloğunda Link etiketi ile sayfada dahil edilir.
+		Örneği bu sayfanın head bloğunda vardır.
+		<br>
+		Örneğin bu sayfanın h1 etiketleri harici css sayfasında tanımlanmıştır.
+	</p>
+<hr>
+	<h1>Seçiciler</h1>
+	<p>
+		Seçiciler bir html belgesinde bulunan herhangi bir html elemanını veya birden fazla elemanı seçerek özellikleri biçimlendirmemizi sağlar.
+	</p>
+	<h3>Sınıf Seçicisi</h3>
+	<p class="paragraf">
+		Sınıf seçicisi birden çok html elemanını biçimlendirmek istediğimizde kullanılır.
+		<br>
+		.sınıfadi şeklinde css içinde tanımlanır. Kullanmak istediğiniz etiket içinde class parametresi ile sınıf adı yazılarak kullanılır. Örnek bu paragrafın yer aldığı p etiketinde vardır.
+	</p>
+	<h3>İd Seçicisi</h3>
+	<p id="paragraf2">
+		Id seçicisi bir html elemanını özel biçimlendirmek istediğimizde kullanılır.
+		<br>
+		Css içinde #idadi şeklinde tanımlanır. Etkilenecek olan html etiketi içinde id parametresi ile çağırılarak kullanılır. Örnek bu paragrafın yer aldığı p etiketinde vardır. 
+	</p>
+
+
+
+
+
+
+
+</body>
+</html>

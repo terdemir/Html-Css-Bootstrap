@@ -1,0 +1,68 @@
+h1{
+	color: aquamarine;
+	font-size:45px ;
+	text-align: center;
+}
+h3{
+	color: green;
+}
+.paragraf{
+	color: crimson;
+	font-size: 20px;
+}
+#paragraf2{
+	color: blanchedalmond;
+	font-size:20px;
+}
+
+/*
+arkaplan css elemanları: 
+-background-color
+-background-image
+-background-repeat
+-background-position
+*/
+
+body{
+	/*background-color: blanchedalmond;*/
+	background-image: url('../images/bgcolor.jpg');
+	background-repeat: repeat-x;
+	background-position: top center;
+	margin: 0;
+	padding: 0;
+}
+
+/*Metin css elemanları
+font-family: yazı tipi
+font-size :Yazı büyüklüğü
+font-weight: yazı kalınlığı
+font-style:  eğik yazı
+line-height:  satırlar arası boşluk
+
+color:  renk
+text-align: hizalama
+text-decoration:  altı-üstü çizili yazma
+text-transform:  büyük küçük harf çevirme
+text-indent:  soldan girinti bırakma
+letter-spacing: karakterler arası boşlul miktarı
+word-spacing: kelimeler arası boşluk miktarı
+*/
+
+p{
+	font-family: Cambria;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	line-height: 20px;
+	color: white;
+}
+
+.parag{
+	text-align: center;
+	text-decoration: underline;
+	text-transform: uppercase;
+	text-indent: 100px;
+	line-height: 40px;
+	letter-spacing: 5px;
+	word-spacing: 10px;
+}
