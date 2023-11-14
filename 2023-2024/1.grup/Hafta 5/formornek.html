@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Fieldset Örnek</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Kişi Bilgileri</legend>
+			<ol>
+				<li>
+					Ad-Soyad<br>
+					<input type="text" name="" placeholder="Adınız Soyadınız" required autofocus>
+				</li>
+				<li>
+					E-posta<br>
+					<input type="email" name="" placeholder="abc@def.com" required>
+				</li>
+				<li>
+					Telefon<br>
+					<input type="tel" name="" placeholder="(___) (___ __ __)" required>
+				</li>
+			</ol>
+		</fieldset>
+		<fieldset>
+			<legend>Adres Bilgileri</legend>
+			<ol>
+				<li>
+					Adres:<br>
+					<textarea cols="50" rows="5" placeholder="Adresinizi giriniz" required></textarea>
+				</li>
+				<li>
+					Posta Kodu:<br>
+					<input type="number" name="" placeholder="Posta Kodu" required>
+				</li>
+				<li>
+					Ülke:<br>
+					<input type="text" name="" placeholder="Ülkeniz" required>
+				</li>
+			</ol>
+		</fieldset>
+		<fieldset>
+			<legend>Ödeme Bilgileri</legend>
+			<ol>
+				<li>
+					<fieldset>
+						<legend>Kart Türü</legend>
+						<ul>
+							<li><input type="radio" name="kart">Visa</li>
+							<li><input type="radio" name="kart">Master-Card</li>
+							<li><input type="radio" name="kart">Troy</li>
+						</ul>
+					</fieldset>
+				</li>
+				<li>
+					Kart Numarası:<br>
+					<input type="text" name="" placeholder="(____ ____ ____ ____)" required>
+				</li>
+				<li>
+					Güvenlik Kodu:<br>
+					<input type="text" name="" placeholder="(___)" required>
+				</li>
+			</ol>
+		</fieldset>
+		<fieldset>
+			<input type="submit" name="" value="Satın Al">
+			<input type="reset" name="" value="Temizle">
+		</fieldset>
+	</form>
+
+
+</body>
+</html>
