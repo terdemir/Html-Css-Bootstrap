@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+    border: 5px solid red;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 100px;
+
+
+}
+
+.kutu1{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 100px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.kutu2{
+    margin: 20px 0px 60px 100px;
+    padding: 10px 0px 30px 40px;
+}
+
+#kenar{
+    border: 10px;
+    border-color: skyblue;
+    border-style: dotted;
+    border-radius: 5px;
+}
+
+.kutu3{
+    margin: 20px;
+    padding: 10px;
+    border: 2px dashed blue;
+    color: aqua;
+    
+}

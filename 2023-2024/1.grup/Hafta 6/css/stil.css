@@ -1,0 +1,46 @@
+h1{
+    color: chartreuse;
+    font-size: 50px;
+    text-align: center;
+    font-family:'Segoe UI';
+}
+
+.paragraf1{
+  color:bisque;
+  font-size:14px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+
+#paragraf2{
+    color: chocolate;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+body{
+    /*background-color:antiquewhite ;*/ /*arka plan rengi */
+    background-image: url('../images/bg.jpg');
+    background-repeat: repeat-y; /* resmi y ekseninde tekrar ettir */
+    background-repeat: repeat-x; /* x ekseninde tekrar ettir. */
+    background-position: top; /* arka plan konumu */
+}
+
+p{
+    font-family: Cambria;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 20px;
+    color: white;
+}
+
+.parag{
+    text-align: center;
+    text-decoration: underline; /*none seçilirse var olan çizgi kaldırılır*/
+    text-transform:uppercase ; /*harflerin büyük küçük dönüşümü*/
+    text-indent: 100px; /*soldan girinti miktarı*/
+    letter-spacing: 5px; /*harfler arası boşluk miktarı */
+    word-spacing: 10px; /* kelimeler arası boşluk miktarı*/
+    line-height: 30px; /* satılar arası yükseklik miktarı*/
+}
