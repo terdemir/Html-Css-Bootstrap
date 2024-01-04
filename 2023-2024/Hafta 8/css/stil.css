@@ -1,0 +1,148 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+header{
+    background-image: url(../images/enust-arka.png);
+    margin: 0px;
+    height: 110px;
+    width: 100%;
+    padding-left: 0px;
+}
+.ortala{
+    margin: 0px auto;
+    height: auto;
+    width: 985px;
+}
+#logo{
+    float: left;
+    height: 28px;
+    width: 166px;
+    margin: 50px;
+}
+nav{
+    background-color: #f00;
+    float: left;
+    height: 40px;
+    width: 100%;
+    line-height: 10px;
+}
+#menu{
+    margin: 0px;
+    padding: 0px;
+}
+#menu ul li{
+ list-style-type: none;
+ float: left;
+ margin-right: 40px;
+ color: #fff;
+ font-size: 16px;
+ font-family: Cambria;
+ font-style: italic;
+ font-weight: bold;   
+}
+article{
+    background-image: url(../images/orta-arka.jpg);
+    float: left;
+    height: auto;
+    width: 100%;
+}
+#duyuru{
+    background-image: url(../images/duyuru_box_bg.png);
+    height: 101px;
+    width: 985px;
+    margin-top: 20px;
+    float: left;
+}
+#baslik{
+    font-family: Cambria;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #336;
+    float: left;
+    height: auto;
+    width: 100%;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+#duyurular{
+    float: left;
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+}
+#madde{
+    background-image: url(../images/duyuru_icon.png);
+    float: left;
+    height: 10px;
+    width: 6px;
+    margin: 13px;
+}
+
+#haber{
+    font-size: 15px;
+    height: auto;
+    width: auto;
+    margin: 10px;
+}
+.icerik{
+    width: 480px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 10px;
+    float: left;
+    margin:  12px 12px 12px 0;
+}
+.resim{
+    height: 130px;
+    width: 480px;
+}
+.baslik2{
+    font-size: 20px;
+    height: auto;
+    width: auto;
+    margin: 10px;
+    color: #339;
+    font-family: Cambria;
+    font-weight: bold;
+}
+.metin{
+    font-size: 12px;
+    height: auto;
+    width: auto;
+    margin: 10px;
+    color: #339;
+    font-family: Cambria;
+    font-weight: bold;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-image: url(../images/enust-arka.png);
+    float: left;
+}
+
+#footermetin{
+    float: right;
+    font-size: 32px;
+    height: auto;
+    width: auto;
+    margin: 10px;
+    color: #339;
+    font-family: Cambria;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
